@@ -1,15 +1,13 @@
-const controller = require('../controller/usuarioController')
-const express = require('express')
-const router = express.Router()
+const controller = require("../controller/usuarioController");
+const express = require("express");
+const { auth } = require("../controller/autenticacao");
+const router = express.Router();
 
- 
-router.post("/", controller.registerNewUsuario)
-router.post("/agenda", controller.registerNewAgenda)
-router.get("/buscar", controller.allAgendamentos)
-router.get("/lojas", controller.findAllLojas)
-router.get("usuario/agenda/:id", controller.usuarioAgenda)
-router.patch("/alterar/:id", controller.alterarUsuario)
-router.delete ("/deletar/:id", controller.deletarUsuario)
+router.post("/usuario/", controller.registerNewUsuario);
+router.post("/login", controller.login)
+router.get("/usuarios",auth, controller.todosUsuarios)
+router.get("/lojas",auth, controller.findAllLojas);
+router.patch("/alterar/:id",auth, controller.alterarUsuario);
+router.delete("/deletar/:id", controller.deletarUsuario);
 
-module.exports = router
-
+module.exports = router;

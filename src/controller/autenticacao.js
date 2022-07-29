@@ -1,14 +1,23 @@
-const auth = (req, res) => {
-    const authHeader = req.get('authorization')
-    
-    if (!authHeader) {
-      return res.status(401).send('Acesso negado: realize o login');
-    };
-    const token = authHeader.split(' ')[1];
-    console.log(token)
-    return token
-  };
-  
-  module.exports = { auth };
+const jwt = require("jsonwebtoken")
 
+const auth = (req, res, next) => {
+  const authHeader = req.get("authorization");
+
+  try {
+    if (!authHeader) {
+      return res.status(401).send("Acesso negado: realize o login");
+    }
+    const token = authHeader.split(" ")[1];
+    console.log(token);
   
+    jwt.verify(token, process.env.SECRET)
+next()  
+    
+  } catch (error) {
+    res.status(401).send(error.message)
+    
+  }
+ 
+};
+
+module.exports = { auth };

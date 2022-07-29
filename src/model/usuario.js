@@ -12,10 +12,7 @@ const usuarioSchema = new mongoose.Schema(
     password: { type: String, required: true },
     tipoDeAtendimentoPretendido: { type: String },
     estado: { type: String },
-    agenda: [ {type: mongoose.Schema.Types.ObjectId,
-      ref: 'agenda'}
-  ]
-
+    agenda: [{ type: mongoose.Schema.Types.ObjectId, ref: "agenda" }],
   },
   {
     versionKey: false,
