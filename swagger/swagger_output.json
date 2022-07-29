@@ -255,7 +255,7 @@
         }
       }
     },
-    "/alterar/{id}": {
+    "/usuario/{id}": {
       "patch": {
         "description": "",
         "parameters": [
@@ -283,9 +283,7 @@
             "description": "Failed Dependency"
           }
         }
-      }
-    },
-    "/deletar/{id}": {
+      },
       "delete": {
         "description": "",
         "parameters": [
