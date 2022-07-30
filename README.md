@@ -237,7 +237,8 @@ Criado com por **Bárbara Gonçalves** e o apoio das professoras, monitoras, ori
 
 - [![github Badge](https://img.shields.io/badge/-Bárbara%20Gonçalves-black?style=flat-square&logo=github&logoColor=white)](https://github.com/idbabis) 
 
+- [![telegram Badge](https://img.shields.io/badge/-Bárbara%20Gonçalves-white?style=flat-square&logo=telegram&logoColor=white)](https://t.me/Idbabis) 
+
 
 ---
-
 
