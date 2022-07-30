@@ -1,12 +1,6 @@
 const AgendaModel = require("../model/agenda")
 
 
-/// REGISTRO
-
-/// ROTA DE LOGIN
-
-
-
 /// NOVA AGENDA
 
 const registerNewAgenda = async (req, res) => {
