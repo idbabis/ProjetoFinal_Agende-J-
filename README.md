@@ -27,7 +27,7 @@
 
 O "Agende já" tem como objetivo marcar um horário online para consultas veterinárias, banhos e tosas para o seu pet.
 Muitas pessoas ficam descontentes em ligar para as lojas para agendar um horário, muitas vezes quando o cliente necessita de um horário não esta vago. 
-Sempre a loja determina o horário e dia que você deve agendar. O intuido do API é facilitar, dar opções, facilidade, ao cliente e não somente aos lojistas, por outro lado os profissionais tem como grande beneficio a organização e a dinâmica com o cliente. 
+Sempre a loja determina o horário e dia que você deve agendar. O intuito do API é facilitar, dar opções, facilidade, ao cliente e não somente aos lojistas, por outro lado os profissionais tem como grande beneficio a organização e a dinâmica com o cliente. 
 Tudo fica mais fácil! Descomplicando assim a demora no atendimento de forma geral.
 
 Essa é uma API feita para o projeto final do [{reprograma}](https://reprograma.com.br/), e tem como objetivo agendar um dia e horário especificos para o seu animal, o usuário poderá se cadastrar na plataforma e agendar seu hoário e seu atendimento de preferencia e a loja poderá ver essa agenda com os dias de agendamentos dos usuários.
