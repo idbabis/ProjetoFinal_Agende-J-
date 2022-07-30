@@ -230,9 +230,14 @@ Esta API está sendo escutada na `porta 3000` e para que todas as rotas possam s
 
 Criado com por **Bárbara Gonçalves** e o apoio das professoras, monitoras, orientação pedagógica, minhas amigas de turma que se apoiaram durante todo o processo e em especial A profª Mayhhara Morais e a monitora e Profª Beatriz Ramerindo  que sempre estiveram a disposição para me tirar dúvidas.  Obrigada !
 
+- [![ linktree Badge](https://img.shields.io/badge/-Bárbara%20Gonçalves-gren?style=flat-square&logo=linktree&logoColor=white)](https://linktr.ee/idbabis) 
+
+
 - [![Linkedin Badge](https://img.shields.io/badge/-Bárbara%20Gonçalves-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/b%C3%A1rbara-gon%C3%A7alves-211b5691/)
 
 - [![github Badge](https://img.shields.io/badge/-Bárbara%20Gonçalves-black?style=flat-square&logo=github&logoColor=white)](https://github.com/idbabis) 
-- E-mail: idbabis@gmail.com
+
 
 ---
+
+
